@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-	const socket = io("http://localhost:3000");
+	const socket = io("https://solid-robot.vercel.app/");
 
 	let audioChunks = [];
 	let recording = false;
